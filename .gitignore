@@ -1,0 +1,6 @@
+/.idea
+__pycache__
+docker-compose-prod.yml
+credential.json
+venv
+cache
