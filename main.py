@@ -55,7 +55,8 @@ class CandyStealer:
 
         return heaps_variants
 
-    def sasha_add(self, n1, n2):
+    @staticmethod
+    def sasha_add(n1, n2):
         n1 = bin(int(n1))[2:]
         n2 = bin(int(n2))[2:]
         return int(n1, 2) ^ int(n2, 2)
